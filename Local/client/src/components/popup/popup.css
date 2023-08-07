@@ -1,0 +1,52 @@
+.booking {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.418);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .booking-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .booking-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .booking-confirmation {
+    display: flex;
+    justify-content: center; 
+    margin-top: 10px; 
+  }
+
+  .booking-confirmation button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #351f39;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .booking-confirmation button:hover {
+    background-color: hsl(0, 0%, 13%);
+  }
+  
